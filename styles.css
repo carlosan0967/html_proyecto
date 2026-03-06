@@ -370,6 +370,7 @@ ul { list-style: none; }
   width: 260px;
   height: 260px;
   border-radius: 50%;
+  overflow: hidden;
   background: conic-gradient(
     from 0deg,
     #111 0%, #222 8%, #111 16%,
@@ -391,7 +392,7 @@ ul { list-style: none; }
   position: absolute;
   width: 70px;
   height: 70px;
-  background img(album benito.png) center/cover no-repeat;
+  background: img('./imagenes/vinilo_benito.jpg') center/cover no-repeat;
   border-radius: 50%;
   top: 50%;
   left: 50%;
@@ -1212,4 +1213,10 @@ ul { list-style: none; }
   .hero-title { font-size: 36px; }
   .hero-content { max-width: 100%; }
   .main-content { padding: 24px 20px; }
+}
+
+
+.img-vinyl {
+  position: relative;
+  width: 270px;
 }
